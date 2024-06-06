@@ -1,7 +1,8 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 /// <summary>
-/// ™Ω±µ©Ò¶bCamera§WßY•i
+/// Áõ¥Êé•ÊîæÂú®Camera‰∏äÂç≥ÂèØ
 /// A simple free camera to be added to a Unity game object.
 /// 
 /// Keys:
@@ -106,11 +107,12 @@ public class FlyThroughController : MonoBehaviour
             transform.position = transform.position + transform.forward * axis * zoomSensitivity;
         }
 
-        if (Input.GetKeyDown(KeyCode.Mouse1))
+        if (Input.GetKeyDown(KeyCode.Mouse0))
         {
+            if (EventSystem.current.IsPointerOverGameObject()) return;
             StartLooking();
         }
-        else if (Input.GetKeyUp(KeyCode.Mouse1))
+        else if (Input.GetKeyUp(KeyCode.Mouse0))
         {
             StopLooking();
         }
@@ -120,6 +122,8 @@ public class FlyThroughController : MonoBehaviour
     {
         StopLooking();
     }
+
+
 
     /// <summary>
     /// Enable free looking.

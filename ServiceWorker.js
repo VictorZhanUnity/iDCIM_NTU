@@ -1,4 +1,4 @@
-const cacheName = "TCIT-_template-0.1";
+const cacheName = "TCIT-iDCIM_NTU-0.1";
 const contentToCache = [
     "Build/iDCIM_NTU.loader.js",
     "Build/iDCIM_NTU.framework.js.unityweb",

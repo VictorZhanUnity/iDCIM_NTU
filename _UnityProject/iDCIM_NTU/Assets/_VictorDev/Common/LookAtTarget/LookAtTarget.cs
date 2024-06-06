@@ -15,7 +15,6 @@ namespace VictorDev.Common
             if (target != null)
             {
                 transform.LookAt(target);
-                transform.Rotate(0, 180, 0); // 翻转180度
             }
         }
     }

@@ -37,6 +37,7 @@ namespace VictorDev.RevitUtils
              });
         }
 
+#if UNITY_EDITOR
         /// <summary>
         /// 選取欲替換的目標物件
         /// </summary>
@@ -47,7 +48,6 @@ namespace VictorDev.RevitUtils
             Selection.objects = selectedObjects.ToArray();
         }
 
-#if UNITY_EDITOR
         [CustomEditor(typeof(ObjectReplacer))]
         private class Inspector : InspectorEditor<ObjectReplacer>
         {

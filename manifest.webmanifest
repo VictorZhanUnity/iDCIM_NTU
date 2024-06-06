@@ -1,6 +1,6 @@
 {
-    "name": "_template",
-    "short_name": "_template",
+    "name": "iDCIM_NTU",
+    "short_name": "iDCIM_NTU",
     "start_url": "index.html",
     "display": "fullscreen",
     "background_color": "#231F20",
