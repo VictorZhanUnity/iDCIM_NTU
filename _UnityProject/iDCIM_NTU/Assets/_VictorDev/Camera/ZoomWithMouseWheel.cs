@@ -48,27 +48,9 @@ namespace VictorDev.CameraHandler
                 freeLookCamera.m_Orbits[i].m_Radius = Mathf.Clamp(freeLookCamera.m_Orbits[i].m_Radius, minDistance, maxDistance);
             }
 
-            Debug.Log($"{maxHeight} / {minHeight}");
-
             Vector3 pos = freeLookCamera.transform.position;
             pos.y = Mathf.Clamp(pos.y + scrollWheelValue, minHeight, maxHeight);
             freeLookCamera.transform.position = pos;
-        }
-
-        private void CameraDistanceControll1()
-        {
-            // 获取鼠标滚轮输入
-            float scrollInput = Input.GetAxis("Mouse ScrollWheel");
-            if (scrollInput != 0)
-            {
-                // 根据输入计算新的距离
-                float currentDistance = Vector3.Distance(freeLookCamera.transform.position, freeLookCamera.Follow.position);
-                float targetDistance = Mathf.Clamp(currentDistance - scrollInput * zoomSpeed, minDistance, maxDistance);
-
-                // 设置新的Follow位置
-                Vector3 direction = (freeLookCamera.transform.position - freeLookCamera.Follow.position).normalized;
-                freeLookCamera.Follow.position = freeLookCamera.Follow.position + direction * targetDistance;
-            }
         }
 
         private void CameraPosYControll()
