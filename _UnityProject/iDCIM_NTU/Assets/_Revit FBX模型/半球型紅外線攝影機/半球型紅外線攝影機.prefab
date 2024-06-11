@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 9076567018358513279}
   - component: {fileID: 4312510241249124304}
   - component: {fileID: 120200189079446888}
+  - component: {fileID: 2474011710078001639}
   m_Layer: 0
   m_Name: "\u534A\u7403\u578B\u7D05\u5916\u7DDA\u651D\u5F71\u6A5F"
   m_TagString: Untagged
@@ -9166,3 +9167,25 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!64 &2474011710078001639
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5841439922165135347}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
