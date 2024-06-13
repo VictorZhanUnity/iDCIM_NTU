@@ -502,7 +502,7 @@
     "m_ZTestMode": 4,
     "m_ZWriteControl": 0,
     "m_AlphaMode": 0,
-    "m_RenderFace": 1,
+    "m_RenderFace": 2,
     "m_AlphaClip": false,
     "m_CastShadows": true,
     "m_ReceiveShadows": true,
@@ -1086,7 +1086,7 @@
     "m_Value": 1.0049999952316285,
     "m_FloatType": 1,
     "m_RangeValues": {
-        "x": 1.0049999952316285,
+        "x": 0.9950000047683716,
         "y": 1.100000023841858
     }
 }

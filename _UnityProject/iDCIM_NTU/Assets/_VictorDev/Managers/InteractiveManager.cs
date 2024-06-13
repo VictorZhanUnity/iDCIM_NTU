@@ -47,7 +47,7 @@ namespace VictorDev.Managers
         private void SetupInteractive(Collider target)
         {
             Outline outline = target.AddComponent<Outline>();
-            outline.OutlineMode = Outline.Mode.OutlineVisible;
+            outline.OutlineMode = Outline.Mode.OutlineAll;
             OnMouseExitEvent(outline);
 
             outlines.Add(outline);
