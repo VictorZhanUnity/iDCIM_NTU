@@ -31,7 +31,7 @@ namespace VictorDev.Managers
         private List<Outline> outlines { get; set; } = new List<Outline>();
 
         [Header(">>> 點擊互動物件時")]
-        public UnityEvent<Transform> OnMouseClickInteractiveItemEvent = new UnityEvent<Transform>();
+        public UnityEvent<Transform> OnClickInteractiveItemEvent = new UnityEvent<Transform>();
 
         private void Start()
         {
@@ -82,6 +82,6 @@ namespace VictorDev.Managers
             outline.OutlineColor = color_Normal;
         }
 
-        private void OnMouseClick(Outline outline) => OnMouseClickInteractiveItemEvent?.Invoke(outline.transform);
+        private void OnMouseClick(Outline outline) => OnClickInteractiveItemEvent?.Invoke(outline.transform);
     }
 }
