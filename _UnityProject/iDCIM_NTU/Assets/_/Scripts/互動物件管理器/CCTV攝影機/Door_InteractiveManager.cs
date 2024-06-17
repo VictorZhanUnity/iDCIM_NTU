@@ -12,5 +12,7 @@ public class Door_InteractiveManager : InteractiveManager
     public void SetIndicatorVisible(bool isVisible)
     {
         SetOutlineVisible(isVisible);
+        ///
+
     }
 }
