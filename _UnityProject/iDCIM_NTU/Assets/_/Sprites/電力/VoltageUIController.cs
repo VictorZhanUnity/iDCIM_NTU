@@ -54,8 +54,8 @@ public class VoltageUIController : MonoBehaviour
 
             //§ó·sÃC¦â
             Color color = Color.green;
-            if (percent > 0.8f) color = ColorConverter.colorRed;
-            else if (percent > 0.6f) color = ColorConverter.colorOrange;
+            if (percent > 0.8f) color = ColorUtils.colorRed;
+            else if (percent > 0.6f) color = ColorUtils.colorOrange;
             else if (percent > 0.4f) color = Color.yellow;
             imgFilled.color = color;
 
@@ -64,7 +64,7 @@ public class VoltageUIController : MonoBehaviour
 
         if (txtValue != null)
         {
-            txtValue.text = $"{curentValue}/{maxValue}";
+            txtValue.text = $"{curentValue} / {maxValue} W";
         }
     }
 }

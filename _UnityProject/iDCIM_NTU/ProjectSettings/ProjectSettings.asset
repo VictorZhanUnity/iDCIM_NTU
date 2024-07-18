@@ -47,7 +47,7 @@ PlayerSettings:
   defaultScreenWidthWeb: 960
   defaultScreenHeightWeb: 600
   m_StereoRenderingPath: 0
-  m_ActiveColorSpace: 1
+  m_ActiveColorSpace: 0
   unsupportedMSAAFallback: 0
   m_SpriteBatchVertexThreshold: 300
   m_MTRendering: 1
@@ -161,7 +161,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.TCIT._template
+    Android: com.TCIT.iDCIM_PRIMAX
     Standalone: com.TCIT.-template
   buildNumber:
     Standalone: 0
@@ -746,7 +746,24 @@ PlayerSettings:
   webGLMemoryGeometricGrowthStep: 0.2
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    Android: dUI_TextMeshPro
+    EmbeddedLinux: dUI_TextMeshPro
+    GameCoreScarlett: dUI_TextMeshPro
+    GameCoreXboxOne: dUI_TextMeshPro
+    LinuxHeadlessSimulation: dUI_TextMeshPro
+    Nintendo Switch: dUI_TextMeshPro
+    PS4: dUI_TextMeshPro
+    PS5: dUI_TextMeshPro
+    QNX: dUI_TextMeshPro
+    Stadia: dUI_TextMeshPro
+    Standalone: dUI_TextMeshPro
+    VisionOS: dUI_TextMeshPro
+    WebGL: dUI_TextMeshPro
+    Windows Store Apps: dUI_TextMeshPro
+    XboxOne: dUI_TextMeshPro
+    iPhone: dUI_TextMeshPro
+    tvOS: dUI_TextMeshPro
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
@@ -865,4 +882,4 @@ PlayerSettings:
   hmiLoadingImage: {fileID: 0}
   platformRequiresReadableAssets: 0
   virtualTexturingSupportEnabled: 0
-  insecureHttpOption: 0
+  insecureHttpOption: 2

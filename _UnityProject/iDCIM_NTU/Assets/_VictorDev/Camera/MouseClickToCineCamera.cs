@@ -1,5 +1,6 @@
 using Cinemachine;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 namespace VictorDev.CameraHandler
 {
@@ -37,8 +38,10 @@ namespace VictorDev.CameraHandler
             //偵測是否支援觸控(Web有支援)
             bool isTouched = (Input.touchSupported) ? (Input.touchCount == 1) : false;
 
+            
+
             // Rotate camera if allowed
-            if (isTouched || Input.GetMouseButton(keyValue))
+            if ((isTouched || Input.GetMouseButton(keyValue)) && EventSystem.current.IsPointerOverGameObject() == false)
             {
                 freeLookCamera.m_YAxis.m_MaxSpeed = speed_Y;
                 freeLookCamera.m_XAxis.m_MaxSpeed = speed_X;

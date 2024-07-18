@@ -52,8 +52,7 @@ public abstract class ScrollRectList<T, SO> : MonoBehaviour where T : Component 
     /// </summary>
     protected void CreateItem(SO data)
     {
-        T item = ObjectPoolManager.GetInstanceFromQueuePool<T>(prefabItem);
-        item.transform.SetParent(scrollRect.content);
+        T item = ObjectPoolManager.GetInstanceFromQueuePool<T>(prefabItem, scrollRect.content);
         AddActionInSetDataListForLoop(item, data);
     }
 

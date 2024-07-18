@@ -373,7 +373,7 @@ namespace VictorPlus
 
         [Header(">>> 高亮強度")]
         [Range(0, 20)]
-        [SerializeField] private float intensity = 1f;
+        [SerializeField] private float intensity = 0.3f;
 
         public float color_intensity => intensity * -1;
 

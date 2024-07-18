@@ -1,4 +1,5 @@
 using Cinemachine;
+using System.Collections;
 using UnityEngine;
 
 namespace VictorDev.CameraHandler
@@ -22,6 +23,40 @@ namespace VictorDev.CameraHandler
         private float scrollWheelValue;
         private Vector3 movePosVector = new Vector3();
 
+        /// <summary>
+        /// 改變範圍半徑
+        /// </summary>
+        public float OrbitRadius
+        {
+            set
+            {
+                StopCoroutine(LerpDistance());
+                StartCoroutine(LerpDistance());
+
+                for (int i = 0; i < 3; i++)
+                {
+                    freeLookCamera.m_Orbits[i].m_Radius = Mathf.Clamp(value, minDistance, maxDistance);
+                }
+            }
+        }
+
+
+
+        IEnumerator LerpDistance()
+        {
+            float duration = 3;
+            float elapsedTime = 0;
+            while (Mathf.Round(freeLookCamera.m_YAxis.Value * 100) / 100 > 0f)
+            {
+                yield return new WaitForEndOfFrame();
+                elapsedTime += Time.deltaTime;
+
+                // 使用 Mathf.Lerp 实现平滑的过渡
+                freeLookCamera.m_YAxis.Value = Mathf.Lerp(freeLookCamera.m_YAxis.Value, 0, elapsedTime / duration);
+            }
+
+        }
+
         private void Update()
         {
             CameraDistanceControll();
@@ -38,19 +73,27 @@ namespace VictorDev.CameraHandler
             float maxHeight = freeLookCamera.m_Orbits[0].m_Height;
             float minHeight = freeLookCamera.m_Orbits[2].m_Height;
 
-            for (int i = 0; i < 3; i++)
-            {
 #if UNITY_EDITOR || UNITY_WEBGL
-                freeLookCamera.m_Orbits[i].m_Radius += scrollWheelValue * zoomSpeed;
+            AdjustRadius(scrollWheelValue * zoomSpeed);
 #elif PLATFORM_ANDROID
-                    freeLookCamera.m_Orbits[i].m_Radius += MobileInputHandler.ZoomByFingerScale();
+          //  AdjustRadius(MobileInputHandler.ZoomByFingerScale());
 #endif
-                freeLookCamera.m_Orbits[i].m_Radius = Mathf.Clamp(freeLookCamera.m_Orbits[i].m_Radius, minDistance, maxDistance);
-            }
 
             Vector3 pos = freeLookCamera.transform.position;
             pos.y = Mathf.Clamp(pos.y + scrollWheelValue, minHeight, maxHeight);
             freeLookCamera.transform.position = pos;
+        }
+
+        /// <summary>
+        /// 調整範圍半徑
+        /// </summary>
+        private void AdjustRadius(float value)
+        {
+            for (int i = 0; i < 3; i++)
+            {
+                freeLookCamera.m_Orbits[i].m_Radius += value;
+                freeLookCamera.m_Orbits[i].m_Radius = Mathf.Clamp(freeLookCamera.m_Orbits[i].m_Radius, minDistance, maxDistance);
+            }
         }
 
         private void CameraPosYControll()

@@ -1,18 +1,24 @@
-using System.Collections;
-using System.Collections.Generic;
+using Cinemachine;
 using UnityEngine;
+using VictorDev.CameraHandler;
 
 public class CameraManager : MonoBehaviour
 {
-    // Start is called before the first frame updateï¼š
-    void Start()
+    [Header(">>> Cinemachine Free Look±±¨î¾¹")]
+    [SerializeField] private CinemachineFreeLook cinemachineCamera;
+    [SerializeField] private ZoomWithMouseWheel zoomController;
+    [SerializeField] private Transform lookAtTarget;
+
+    public void LookAtTarget(Transform target)
     {
-         
+        lookAtTarget.position = target.position;
+        zoomController.OrbitRadius = 2.5f;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnValidate()
     {
-        
+        cinemachineCamera ??= transform.GetChild(0).GetComponent<CinemachineFreeLook>();
+        zoomController ??= cinemachineCamera.GetComponent<ZoomWithMouseWheel>();
+        lookAtTarget ??= cinemachineCamera.LookAt;
     }
 }

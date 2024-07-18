@@ -22,7 +22,20 @@ namespace VictorDev.Common
             return Encoding.UTF8.GetString(byteArray);
         }
 
-      
-
+        private static StringBuilder sb = new StringBuilder();
+        /// <summary>
+        /// 將多個字串組在一起
+        /// <para> + 使用StringBuilder更有效率</para>
+        /// <para> + 直接用原始值，故不進行Trim()</para>
+        /// </summary>
+        public static string StringBuilderAppend(params string[] strValues)
+        {
+            sb.Clear();
+            foreach (string strValue in strValues)
+            {
+                sb.Append(strValue);
+            }
+            return sb.ToString();
+        }
     }
 }

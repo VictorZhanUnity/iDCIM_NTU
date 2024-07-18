@@ -76,13 +76,13 @@ public class ObjectPoolManager : SingletonMonoBehaviour<ObjectPoolManager>
     /// <para>+ 用泛型來指定類別型態</para>
     /// <para>+ 若沒有目標物件時，則以prefab動態實例化並回傳</para>
     /// </summary>
-    public static T GetInstanceFromQueuePool<T>(T prefab) where T : Component
+    public static T GetInstanceFromQueuePool<T>(T prefab, Transform container) where T : Component
     {
         string className = typeof(T).Name;
         if (Instance.poolDict.ContainsKey(className) == false)
             Instance.poolDict[className] = new PoolContainer(className);
 
-        return Instance.poolDict[className].GetInstanceFromQueuePool<T>(prefab);
+        return Instance.poolDict[className].GetInstanceFromQueuePool<T>(prefab, container);
     }
 
     protected override void OnValidateAfter() => name = $"{objName} [ MaxSize: {maxSizeOfEachQueue}]";
@@ -127,11 +127,13 @@ public class ObjectPoolManager : SingletonMonoBehaviour<ObjectPoolManager>
         /// 從Queue裡擷取物件
         /// <para>+ 若沒有目標物件型態時，則以prefab動態實例化並回傳</para>
         /// </summary>
-        public T GetInstanceFromQueuePool<T>(T prefab) where T : Component
+        public T GetInstanceFromQueuePool<T>(T prefab, Transform container) where T : Component
         {
             Component target =
-                (queuePool.Count > 0) ? queuePool.Dequeue() : Instantiate(prefab);
+                (queuePool.Count > 0) ? queuePool.Dequeue() : Instantiate(prefab, container);
 
+            target.transform.parent = container;
+            target.transform.localScale = Vector3.one;
             target.gameObject.SetActive(true);
             RefreshContainerName();
             return target.GetComponent<T>();

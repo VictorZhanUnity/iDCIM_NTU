@@ -1,5 +1,5 @@
-using System;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.EventSystems;
 
 namespace VictorDev.Common
@@ -18,7 +18,12 @@ namespace VictorDev.Common
         public bool isClickable { get; set; } = true;
         public bool isSelected { get; set; } = false;
 
-        public event Action<ClickableObject> OnMouseEnterEvent, OnMouseDownEvent, OnMouseUpEvent, OnMouseExitEvent, OnMouseClickEvent;
+        //public event Action<ClickableObject> OnMouseEnterEvent, OnMouseDownEvent, OnMouseUpEvent, OnMouseExitEvent, OnMouseClickEvent;
+        public UnityEvent<ClickableObject> OnMouseEnterEvent = new UnityEvent<ClickableObject>();
+        public UnityEvent<ClickableObject> OnMouseDownEvent = new UnityEvent<ClickableObject>();
+        public UnityEvent<ClickableObject> OnMouseUpEvent = new UnityEvent<ClickableObject>();
+        public UnityEvent<ClickableObject> OnMouseExitEvent = new UnityEvent<ClickableObject>();
+        public UnityEvent<ClickableObject> OnMouseClickEvent = new UnityEvent<ClickableObject>();
         public GameObject parentObject { get; set; }
 
         private bool isMouseDown = false;
@@ -45,7 +50,7 @@ namespace VictorDev.Common
             CheckEvent(OnMouseExitEvent);
         }
 
-        private void CheckEvent(Action<ClickableObject> callback)
+        private void CheckEvent(UnityEvent<ClickableObject> callback)
         {
             if (isClickable)
             {

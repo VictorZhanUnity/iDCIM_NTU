@@ -20,8 +20,7 @@ public class PoolManager_Test : MonoBehaviour
 
     private void GetObjectFromPool<T>(T prefab) where T : Component
     {
-        T item = ObjectPoolManager.GetInstanceFromQueuePool(prefab);
-        item.transform.parent = transform;
+        T item = ObjectPoolManager.GetInstanceFromQueuePool(prefab, transform);
     }
 
     public void GetObjectFromPool(MyPoolItemA prefab) => GetObjectFromPool<MyPoolItemA>(prefab);

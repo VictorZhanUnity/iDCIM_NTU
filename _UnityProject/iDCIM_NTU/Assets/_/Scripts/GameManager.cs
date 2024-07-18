@@ -1,18 +1,29 @@
-using System.Collections;
-using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    // Start is called before the first frame update：
-    void Start()
+    [SerializeField] private CameraManager cameraManager;
+    [SerializeField] private Module[] modules;
+
+
+    [SerializeField] private DeviceManager deviceManager;
+    [SerializeField] private WebAPIManager webAPIManager;
+    private void Awake()
     {
-        
+        modules.ToList().ForEach(module =>
+        {
+            module.onClickModel.AddListener(cameraManager.LookAtTarget);
+        });
+
+        webAPIManager.onGetAllDCRInfo.AddListener(deviceManager.Parse_AllDCRInfo);
+        webAPIManager.onGetDeviceCOBie.AddListener(deviceManager.Parse_COBie);
+
+        deviceManager.onClickDevice.AddListener(webAPIManager.GetCOBieByDeviceId);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        
+        webAPIManager.GetAllDCRInfo();
     }
 }

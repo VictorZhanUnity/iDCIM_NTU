@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254bcd1da1c878549b07bd63fde02233, type: 3}
+  m_Name: "3. WebAPI_\u53D6\u5F97DCR\u5E95\u4E0B\u7684DCS\u5217\u8868"
+  m_EditorClassIdentifier: 
+  method: 2
+  authorization:
+    authorizationType: 1
+    token: 
+  ipConfig: {fileID: 11400000, guid: bf22a150623a788409e547b68e8b35ef, type: 2}
+  apiURL: api/Eqpt/RackContain
+  queryParams:
+    isActivated: 1
+    fieldList:
+    - key: BuildingCode
+      value: TPE
+    - key: DeviceCode
+      value: "HWACOM/TPE/IDC/FL1/DCR/Schneider-ER8222\u642D\u96FB\u6E90/Rack1"
+  body:
+    isActivated: 0
+    _bodyType: 0
+    fieldList: []
+    _rawString: 
