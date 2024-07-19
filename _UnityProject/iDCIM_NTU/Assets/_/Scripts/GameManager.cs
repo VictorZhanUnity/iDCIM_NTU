@@ -1,3 +1,4 @@
+using System.IO;
 using System.Linq;
 using UnityEngine;
 
@@ -24,6 +25,33 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        webAPIManager.GetAllDCRInfo();
+        //webAPIManager.GetAllDCRInfo();
+        //暫時測試用
+        webAPIManager.onGetAllDCRInfo.Invoke(GetTempJsonText());
+    }
+
+    private string GetTempJsonText()
+    {
+        string path = "Assets/Resources/tempJson.json";
+        if (File.Exists(path))
+        {
+            string fileContent = "";
+
+            using (StreamReader reader = new StreamReader(path))
+            {
+                string line;
+                while ((line = reader.ReadLine()) != null)
+                {
+                    fileContent += line + "\n";
+                }
+            }
+            Debug.Log(fileContent);
+            return fileContent;
+        }
+        else
+        {
+            Debug.LogError("檔案不存在！");
+            return "檔案不存在！";
+        }
     }
 }

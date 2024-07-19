@@ -1,0 +1,3060 @@
+[
+  {
+    "elementId": "301805",
+    "deviceCode": "",
+    "code": "Rack1",
+    "buildingCode": "TPE",
+    "area": "IDC",
+    "floor": "FL1",
+    "system": "DCR",
+    "type": "Schneider-ER8222搭電源",
+    "desc": "1 系統Rack",
+    "deviceId": "HWACOM+TPE+IDC+FL1+1+DCR++Rack: Schneider-ER8222搭電源+3",
+    "manufacturer": "Schneider",
+    "modelnumber": "Schneider-ER8222搭電源",
+    "useType": "4",
+    "assetCode": "",
+    "mode": "1",
+    "needToInsp": "1",
+    "information": {
+      "length": 122.64638841152191,
+      "width": 79.99999523162842,
+      "height": 199.07749891281128,
+      "heightU": 42,
+      "watt": 15000,
+      "weight": 2000
+    },
+    "contains": [
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCN++Switch-6: Dell-PowerSwitch S系列-10GbE-6U+122",
+        "rackLocation": 3,
+        "information": {
+          "length": 46.050357818603516,
+          "width": 43.400001525878906,
+          "height": 26.40000581741333
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+124",
+        "rackLocation": 9,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61683940887451,
+          "height": 8.799999952316284
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+125",
+        "rackLocation": 11,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61683940887451,
+          "height": 8.799999952316284
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+126",
+        "rackLocation": 13,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61683940887451,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-8: BrocadeX7-4-sim-8U+128",
+        "rackLocation": 14,
+        "information": {
+          "length": 64.23127055168152,
+          "width": 47.61683940887451,
+          "height": 35.600000619888306
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+129",
+        "rackLocation": 22,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61683940887451,
+          "height": 8.799999952316284
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+130",
+        "rackLocation": 24,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61683940887451,
+          "height": 8.799998462200165
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+131",
+        "rackLocation": 26,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61683940887451,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-14: Brocade-7X-8-sim-14U+123",
+        "rackLocation": 27,
+        "information": {
+          "length": 69.64008212089539,
+          "width": 47.31948375701904,
+          "height": 61.229997873306274
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+127",
+        "rackLocation": 41,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61683940887451,
+          "height": 8.799999952316284
+        }
+      }
+    ]
+  },
+  {
+    "elementId": "301797",
+    "deviceCode": "",
+    "code": "Rack2",
+    "buildingCode": "TPE",
+    "area": "IDC",
+    "floor": "FL1",
+    "system": "DCR",
+    "type": "Schneider-ER8222搭電源",
+    "desc": "2 系統Rack",
+    "deviceId": "HWACOM+TPE+IDC+FL1+1+DCR++Rack: Schneider-ER8222搭電源+4",
+    "manufacturer": "Schneider",
+    "modelnumber": "Schneider-ER8222搭電源",
+    "useType": "4",
+    "assetCode": "",
+    "mode": "1",
+    "needToInsp": "1",
+    "information": {
+      "length": 122.64638841152191,
+      "width": 80.00000715255737,
+      "height": 199.07749891281128,
+      "heightU": 42,
+      "watt": 15000,
+      "weight": 2000
+    },
+    "contains": [
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCN++Switch-5: Juniper-Core Switch EX9204-5U+96",
+        "rackLocation": 1,
+        "information": {
+          "length": 73.25607538223267,
+          "width": 44.19499635696411,
+          "height": 22.1000075340271
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+97",
+        "rackLocation": 8,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708051681518555
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+98",
+        "rackLocation": 9,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+99",
+        "rackLocation": 10,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+100",
+        "rackLocation": 11,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+101",
+        "rackLocation": 12,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+102",
+        "rackLocation": 13,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+103",
+        "rackLocation": 14,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+104",
+        "rackLocation": 15,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+105",
+        "rackLocation": 16,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+106",
+        "rackLocation": 17,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+107",
+        "rackLocation": 18,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+108",
+        "rackLocation": 19,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+109",
+        "rackLocation": 20,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+110",
+        "rackLocation": 21,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708042740821838
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+111",
+        "rackLocation": 22,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+112",
+        "rackLocation": 23,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+113",
+        "rackLocation": 24,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+114",
+        "rackLocation": 25,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.7080472111701965
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+115",
+        "rackLocation": 26,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+116",
+        "rackLocation": 27,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708044230937958
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+117",
+        "rackLocation": 28,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+118",
+        "rackLocation": 29,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708045348525047
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+119",
+        "rackLocation": 30,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708045348525047
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+120",
+        "rackLocation": 31,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708045162260532
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCN++Router-1: Brocade-CER 2024C-4X-Router-1U+121",
+        "rackLocation": 32,
+        "information": {
+          "length": 45.54417133331299,
+          "width": 48.08095693588257,
+          "height": 4.399999789893627
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCN++Router-1: Brocade-CER 2024C-4X-Router-1U+134",
+        "rackLocation": 33,
+        "information": {
+          "length": 45.54417133331299,
+          "width": 48.08095693588257,
+          "height": 4.399999976158142
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCN++Router-1: Brocade-CER 2024C-4X-Router-1U+136",
+        "rackLocation": 41,
+        "information": {
+          "length": 45.54417133331299,
+          "width": 48.08095693588257,
+          "height": 4.399999976158142
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCN++Router-1: Brocade-CER 2024C-4X-Router-1U+135",
+        "rackLocation": 42,
+        "information": {
+          "length": 45.54417133331299,
+          "width": 48.08095693588257,
+          "height": 4.399999976158142
+        }
+      }
+    ]
+  },
+  {
+    "elementId": "301785",
+    "deviceCode": "",
+    "code": "Rack3",
+    "buildingCode": "TPE",
+    "area": "IDC",
+    "floor": "FL1",
+    "system": "DCR",
+    "type": "Schneider-ER8222搭電源",
+    "desc": "3 系統Rack",
+    "deviceId": "HWACOM+TPE+IDC+FL1+1+DCR++Rack: Schneider-ER8222搭電源+5",
+    "manufacturer": "Schneider",
+    "modelnumber": "Schneider-ER8222搭電源",
+    "useType": "4",
+    "assetCode": "",
+    "mode": "1",
+    "needToInsp": "1",
+    "information": {
+      "length": 122.64638841152191,
+      "width": 79.99999523162842,
+      "height": 199.07749891281128,
+      "heightU": 42,
+      "watt": 15000,
+      "weight": 2000
+    },
+    "contains": [
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-8: BrocadeX7-4-sim-8U+89",
+        "rackLocation": 1,
+        "information": {
+          "length": 64.23127055168152,
+          "width": 47.61685132980347,
+          "height": 35.600000619888306
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+91",
+        "rackLocation": 9,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.616854310035706,
+          "height": 8.799999952316284
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+92",
+        "rackLocation": 11,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.616854310035706,
+          "height": 8.799999952316284
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+93",
+        "rackLocation": 13,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.616854310035706,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-8: BrocadeX7-4-sim-8U+94",
+        "rackLocation": 14,
+        "information": {
+          "length": 64.23127055168152,
+          "width": 47.61685132980347,
+          "height": 35.600000619888306
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+95",
+        "rackLocation": 26,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.616854310035706,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-14: Brocade-7X-8-sim-14U+90",
+        "rackLocation": 27,
+        "information": {
+          "length": 69.64008212089539,
+          "width": 47.319480776786804,
+          "height": 61.229997873306274
+        }
+      }
+    ]
+  },
+  {
+    "elementId": "301775",
+    "deviceCode": "",
+    "code": "Rack4",
+    "buildingCode": "TPE",
+    "area": "IDC",
+    "floor": "FL1",
+    "system": "DCR",
+    "type": "Schneider-ER8222搭電源",
+    "desc": "4 系統Rack",
+    "deviceId": "HWACOM+TPE+IDC+FL1+1+DCR++Rack: Schneider-ER8222搭電源+6",
+    "manufacturer": "Schneider",
+    "modelnumber": "Schneider-ER8222搭電源",
+    "useType": "4",
+    "assetCode": "",
+    "mode": "1",
+    "needToInsp": "1",
+    "information": {
+      "length": 122.64638841152191,
+      "width": 80.00000230967999,
+      "height": 199.07749891281128,
+      "heightU": 42,
+      "watt": 15000,
+      "weight": 2000
+    },
+    "contains": [
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCN++Switch-5: Juniper-Core Switch EX9204-5U+142",
+        "rackLocation": 1,
+        "information": {
+          "length": 73.25606346130371,
+          "width": 44.19499784708023,
+          "height": 22.1000075340271
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCN++Switch-1: Juniper-Access Switch EX2300-24MP-1U+141",
+        "rackLocation": 6,
+        "information": {
+          "length": 27.138423919677734,
+          "width": 44.189997017383575,
+          "height": 4.4499993324279785
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+76",
+        "rackLocation": 9,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 8.799999952316284
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+77",
+        "rackLocation": 11,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 8.799999952316284
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+78",
+        "rackLocation": 13,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-8: BrocadeX7-4-sim-8U+80",
+        "rackLocation": 14,
+        "information": {
+          "length": 64.23127055168152,
+          "width": 47.61685132980347,
+          "height": 35.59999763965607
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+81",
+        "rackLocation": 22,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 8.799999952316284
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+82",
+        "rackLocation": 24,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 8.800001442432404
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+83",
+        "rackLocation": 26,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-8: BrocadeX7-4-sim-8U+84",
+        "rackLocation": 27,
+        "information": {
+          "length": 64.23127055168152,
+          "width": 47.61685132980347,
+          "height": 35.600000619888306
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+85",
+        "rackLocation": 35,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 8.799999952316284
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+86",
+        "rackLocation": 37,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 8.799999952316284
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+87",
+        "rackLocation": 39,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+88",
+        "rackLocation": 40,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+79",
+        "rackLocation": 41,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 8.800002932548523
+        }
+      }
+    ]
+  },
+  {
+    "elementId": "301765",
+    "deviceCode": "",
+    "code": "Rack5",
+    "buildingCode": "TPE",
+    "area": "IDC",
+    "floor": "FL1",
+    "system": "DCR",
+    "type": "Schneider-ER8222搭電源",
+    "desc": "5 系統Rack",
+    "deviceId": "HWACOM+TPE+IDC+FL1+1+DCR++Rack: Schneider-ER8222搭電源+9",
+    "manufacturer": "Schneider",
+    "modelnumber": "Schneider-ER8222搭電源",
+    "useType": "4",
+    "assetCode": "",
+    "mode": "1",
+    "needToInsp": "1",
+    "information": {
+      "length": 122.64639735221863,
+      "width": 79.99999523162842,
+      "height": 199.07749891281128,
+      "heightU": 42,
+      "watt": 15000,
+      "weight": 2000
+    },
+    "contains": [
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCN++Switch-6: Dell-PowerSwitch S系列-10GbE-6U+34",
+        "rackLocation": 1,
+        "information": {
+          "length": 46.050357818603516,
+          "width": 43.400001525878906,
+          "height": 26.40000581741333
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+36",
+        "rackLocation": 9,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.616854310035706,
+          "height": 8.799999952316284
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+37",
+        "rackLocation": 11,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.616854310035706,
+          "height": 8.799999952316284
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+38",
+        "rackLocation": 13,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.616854310035706,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-8: BrocadeX7-4-sim-8U+40",
+        "rackLocation": 14,
+        "information": {
+          "length": 64.23126459121704,
+          "width": 47.61685132980347,
+          "height": 35.600000619888306
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+41",
+        "rackLocation": 22,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.616854310035706,
+          "height": 8.799999952316284
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+42",
+        "rackLocation": 24,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.616854310035706,
+          "height": 8.799998462200165
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+43",
+        "rackLocation": 26,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.616854310035706,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-14: Brocade-7X-8-sim-14U+35",
+        "rackLocation": 27,
+        "information": {
+          "length": 69.64007616043091,
+          "width": 47.319480776786804,
+          "height": 61.229997873306274
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCN++Router-1: Brocade-CER 2024C-4X-Router-1U+39",
+        "rackLocation": 41,
+        "information": {
+          "length": 45.54415941238403,
+          "width": 48.08095693588257,
+          "height": 4.399999976158142
+        }
+      }
+    ]
+  },
+  {
+    "elementId": "301718",
+    "deviceCode": "",
+    "code": "Rack6",
+    "buildingCode": "TPE",
+    "area": "IDC",
+    "floor": "FL1",
+    "system": "DCR",
+    "type": "Schneider-ER8222搭電源",
+    "desc": "6 系統Rack",
+    "deviceId": "HWACOM+TPE+IDC+FL1+1+DCR++Rack: Schneider-ER8222搭電源+10",
+    "manufacturer": "Schneider",
+    "modelnumber": "Schneider-ER8222搭電源",
+    "useType": "4",
+    "assetCode": "",
+    "mode": "1",
+    "needToInsp": "1",
+    "information": {
+      "length": 122.64639735221863,
+      "width": 80.00000230967999,
+      "height": 199.07749891281128,
+      "heightU": 42,
+      "watt": 15000,
+      "weight": 2000
+    },
+    "contains": [
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCN++Switch-1: Juniper-Access Switch EX2300-24MP-1U+137",
+        "rackLocation": 1,
+        "information": {
+          "length": 27.13843584060669,
+          "width": 44.190001487731934,
+          "height": 4.4499993324279785
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCN++Switch-1: Juniper-Access Switch EX2300-24MP-1U+138",
+        "rackLocation": 2,
+        "information": {
+          "length": 27.13843584060669,
+          "width": 44.190001487731934,
+          "height": 4.4499993324279785
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCN++Switch-1: Juniper-Access Switch EX2300-24MP-1U+139",
+        "rackLocation": 3,
+        "information": {
+          "length": 27.13843584060669,
+          "width": 44.190001487731934,
+          "height": 4.4499993324279785
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCN++Switch-1: Juniper-Access Switch EX2300-24MP-1U+140",
+        "rackLocation": 4,
+        "information": {
+          "length": 27.13843584060669,
+          "width": 44.190001487731934,
+          "height": 4.4499993324279785
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+21",
+        "rackLocation": 9,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 8.799999952316284
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+22",
+        "rackLocation": 11,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 8.799999952316284
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+23",
+        "rackLocation": 13,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-8: BrocadeX7-4-sim-8U+25",
+        "rackLocation": 14,
+        "information": {
+          "length": 64.23126459121704,
+          "width": 47.61685132980347,
+          "height": 35.59999763965607
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+26",
+        "rackLocation": 22,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 8.799999952316284
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+27",
+        "rackLocation": 24,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 8.800001442432404
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+28",
+        "rackLocation": 26,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-8: BrocadeX7-4-sim-8U+29",
+        "rackLocation": 27,
+        "information": {
+          "length": 64.23126459121704,
+          "width": 47.61685132980347,
+          "height": 35.600000619888306
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+30",
+        "rackLocation": 35,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 8.799999952316284
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+31",
+        "rackLocation": 37,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 8.799999952316284
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+32",
+        "rackLocation": 39,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+33",
+        "rackLocation": 40,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+24",
+        "rackLocation": 41,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 8.800002932548523
+        }
+      }
+    ]
+  },
+  {
+    "elementId": "301706",
+    "deviceCode": "",
+    "code": "Rack7",
+    "buildingCode": "TPE",
+    "area": "IDC",
+    "floor": "FL1",
+    "system": "DCR",
+    "type": "Schneider-ER8222搭電源",
+    "desc": "7 系統Rack",
+    "deviceId": "HWACOM+TPE+IDC+FL1+1+DCR++Rack: Schneider-ER8222搭電源+11",
+    "manufacturer": "Schneider",
+    "modelnumber": "Schneider-ER8222搭電源",
+    "useType": "4",
+    "assetCode": "",
+    "mode": "1",
+    "needToInsp": "1",
+    "information": {
+      "length": 122.64639735221863,
+      "width": 80.00000715255737,
+      "height": 199.07749891281128,
+      "heightU": 42,
+      "watt": 15000,
+      "weight": 2000
+    },
+    "contains": [
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+44",
+        "rackLocation": 5,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708051681518555
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+45",
+        "rackLocation": 6,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708051681518555
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+46",
+        "rackLocation": 7,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708051681518555
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+47",
+        "rackLocation": 8,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708051681518555
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+48",
+        "rackLocation": 9,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+49",
+        "rackLocation": 10,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+50",
+        "rackLocation": 11,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+51",
+        "rackLocation": 12,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+52",
+        "rackLocation": 13,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+53",
+        "rackLocation": 20,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+54",
+        "rackLocation": 21,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708042740821838
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+55",
+        "rackLocation": 22,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+56",
+        "rackLocation": 23,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+57",
+        "rackLocation": 24,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+58",
+        "rackLocation": 25,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.7080472111701965
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+59",
+        "rackLocation": 26,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+60",
+        "rackLocation": 27,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708044230937958
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+61",
+        "rackLocation": 28,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+62",
+        "rackLocation": 29,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045348525047
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+63",
+        "rackLocation": 30,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045348525047
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+64",
+        "rackLocation": 31,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045162260532
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCN++Router-1: Brocade-CER 2024C-4X-Router-1U+144",
+        "rackLocation": 34,
+        "information": {
+          "length": 45.54417133331299,
+          "width": 48.08095693588257,
+          "height": 4.399999976158142
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCN++Router-1: Brocade-CER 2024C-4X-Router-1U+145",
+        "rackLocation": 35,
+        "information": {
+          "length": 45.54417133331299,
+          "width": 48.08095693588257,
+          "height": 4.399999976158142
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCN++Router-1: Brocade-CER 2024C-4X-Router-1U+143",
+        "rackLocation": 36,
+        "information": {
+          "length": 45.54417133331299,
+          "width": 48.08095693588257,
+          "height": 4.399999976158142
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCN++Router-1: Brocade-CER 2024C-4X-Router-1U+65",
+        "rackLocation": 37,
+        "information": {
+          "length": 45.54417133331299,
+          "width": 48.08095693588257,
+          "height": 4.399998486042023
+        }
+      }
+    ]
+  },
+  {
+    "elementId": "301696",
+    "deviceCode": "",
+    "code": "Rack8",
+    "buildingCode": "TPE",
+    "area": "IDC",
+    "floor": "FL1",
+    "system": "DCR",
+    "type": "Schneider-ER8222搭電源",
+    "desc": "8 系統Rack",
+    "deviceId": "HWACOM+TPE+IDC+FL1+1+DCR++Rack: Schneider-ER8222搭電源+12",
+    "manufacturer": "Schneider",
+    "modelnumber": "Schneider-ER8222搭電源",
+    "useType": "4",
+    "assetCode": "",
+    "mode": "1",
+    "needToInsp": "1",
+    "information": {
+      "length": 122.64639735221863,
+      "width": 79.99999523162842,
+      "height": 199.07749891281128,
+      "heightU": 42,
+      "watt": 15000,
+      "weight": 2000
+    },
+    "contains": [
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-8: BrocadeX7-4-sim-8U+66",
+        "rackLocation": 1,
+        "information": {
+          "length": 64.23126459121704,
+          "width": 47.61683940887451,
+          "height": 35.600000619888306
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+68",
+        "rackLocation": 9,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61683940887451,
+          "height": 8.799999952316284
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+69",
+        "rackLocation": 11,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61683940887451,
+          "height": 8.799999952316284
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+70",
+        "rackLocation": 13,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61683940887451,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-8: BrocadeX7-4-sim-8U+72",
+        "rackLocation": 14,
+        "information": {
+          "length": 64.23126459121704,
+          "width": 47.61683940887451,
+          "height": 35.600000619888306
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+73",
+        "rackLocation": 22,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61683940887451,
+          "height": 8.799999952316284
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+74",
+        "rackLocation": 24,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61683940887451,
+          "height": 8.799998462200165
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+75",
+        "rackLocation": 26,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61683940887451,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-14: Brocade-7X-8-sim-14U+67",
+        "rackLocation": 27,
+        "information": {
+          "length": 69.64007616043091,
+          "width": 47.31948375701904,
+          "height": 61.229997873306274
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+71",
+        "rackLocation": 41,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61683940887451,
+          "height": 8.799999952316284
+        }
+      }
+    ]
+  },
+  {
+    "elementId": "301688",
+    "deviceCode": "",
+    "code": "Rack1",
+    "buildingCode": "TPE",
+    "area": "IDC",
+    "floor": "FL1",
+    "system": "DCR",
+    "type": "Schneider-ER8222搭電源",
+    "desc": "1 系統Rack",
+    "deviceId": "HWACOM+TPE+IDC+FL1+1+DCR++Rack: Schneider-ER8222搭電源+3",
+    "manufacturer": "Schneider",
+    "modelnumber": "Schneider-ER8222搭電源",
+    "useType": "4",
+    "assetCode": "",
+    "mode": "1",
+    "needToInsp": "1",
+    "information": {
+      "length": 122.64638841152191,
+      "width": 79.99999523162842,
+      "height": 199.07749891281128,
+      "heightU": 42,
+      "watt": 15000,
+      "weight": 2000
+    },
+    "contains": [
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCN++Switch-6: Dell-PowerSwitch S系列-10GbE-6U+122",
+        "rackLocation": 3,
+        "information": {
+          "length": 46.050357818603516,
+          "width": 43.400001525878906,
+          "height": 26.40000581741333
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+124",
+        "rackLocation": 9,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61683940887451,
+          "height": 8.799999952316284
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+125",
+        "rackLocation": 11,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61683940887451,
+          "height": 8.799999952316284
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+126",
+        "rackLocation": 13,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61683940887451,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-8: BrocadeX7-4-sim-8U+128",
+        "rackLocation": 14,
+        "information": {
+          "length": 64.23127055168152,
+          "width": 47.61683940887451,
+          "height": 35.600000619888306
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+129",
+        "rackLocation": 22,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61683940887451,
+          "height": 8.799999952316284
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+130",
+        "rackLocation": 24,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61683940887451,
+          "height": 8.799998462200165
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+131",
+        "rackLocation": 26,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61683940887451,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-14: Brocade-7X-8-sim-14U+123",
+        "rackLocation": 27,
+        "information": {
+          "length": 69.64008212089539,
+          "width": 47.31948375701904,
+          "height": 61.229997873306274
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+127",
+        "rackLocation": 41,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61683940887451,
+          "height": 8.799999952316284
+        }
+      }
+    ]
+  },
+  {
+    "elementId": "301148",
+    "deviceCode": "",
+    "code": "Rack2",
+    "buildingCode": "TPE",
+    "area": "IDC",
+    "floor": "FL1",
+    "system": "DCR",
+    "type": "Schneider-ER8222搭電源",
+    "desc": "2 系統Rack",
+    "deviceId": "HWACOM+TPE+IDC+FL1+1+DCR++Rack: Schneider-ER8222搭電源+4",
+    "manufacturer": "Schneider",
+    "modelnumber": "Schneider-ER8222搭電源",
+    "useType": "4",
+    "assetCode": "",
+    "mode": "1",
+    "needToInsp": "1",
+    "information": {
+      "length": 122.64638841152191,
+      "width": 80.00000715255737,
+      "height": 199.07749891281128,
+      "heightU": 42,
+      "watt": 15000,
+      "weight": 2000
+    },
+    "contains": [
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCN++Switch-5: Juniper-Core Switch EX9204-5U+96",
+        "rackLocation": 1,
+        "information": {
+          "length": 73.25607538223267,
+          "width": 44.19499635696411,
+          "height": 22.1000075340271
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+97",
+        "rackLocation": 8,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708051681518555
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+98",
+        "rackLocation": 9,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+99",
+        "rackLocation": 10,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+100",
+        "rackLocation": 11,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+101",
+        "rackLocation": 12,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+102",
+        "rackLocation": 13,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+103",
+        "rackLocation": 14,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+104",
+        "rackLocation": 15,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+105",
+        "rackLocation": 16,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+106",
+        "rackLocation": 17,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+107",
+        "rackLocation": 18,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+108",
+        "rackLocation": 19,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+109",
+        "rackLocation": 20,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+110",
+        "rackLocation": 21,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708042740821838
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+111",
+        "rackLocation": 22,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+112",
+        "rackLocation": 23,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+113",
+        "rackLocation": 24,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+114",
+        "rackLocation": 25,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.7080472111701965
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+115",
+        "rackLocation": 26,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+116",
+        "rackLocation": 27,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708044230937958
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+117",
+        "rackLocation": 28,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+118",
+        "rackLocation": 29,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708045348525047
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+119",
+        "rackLocation": 30,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708045348525047
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+120",
+        "rackLocation": 31,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.61685132980347,
+          "height": 4.708045162260532
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCN++Router-1: Brocade-CER 2024C-4X-Router-1U+121",
+        "rackLocation": 32,
+        "information": {
+          "length": 45.54417133331299,
+          "width": 48.08095693588257,
+          "height": 4.399999789893627
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCN++Router-1: Brocade-CER 2024C-4X-Router-1U+134",
+        "rackLocation": 33,
+        "information": {
+          "length": 45.54417133331299,
+          "width": 48.08095693588257,
+          "height": 4.399999976158142
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCN++Router-1: Brocade-CER 2024C-4X-Router-1U+136",
+        "rackLocation": 41,
+        "information": {
+          "length": 45.54417133331299,
+          "width": 48.08095693588257,
+          "height": 4.399999976158142
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCN++Router-1: Brocade-CER 2024C-4X-Router-1U+135",
+        "rackLocation": 42,
+        "information": {
+          "length": 45.54417133331299,
+          "width": 48.08095693588257,
+          "height": 4.399999976158142
+        }
+      }
+    ]
+  },
+  {
+    "elementId": "301138",
+    "deviceCode": "",
+    "code": "Rack3",
+    "buildingCode": "TPE",
+    "area": "IDC",
+    "floor": "FL1",
+    "system": "DCR",
+    "type": "Schneider-ER8222搭電源",
+    "desc": "3 系統Rack",
+    "deviceId": "HWACOM+TPE+IDC+FL1+1+DCR++Rack: Schneider-ER8222搭電源+5",
+    "manufacturer": "Schneider",
+    "modelnumber": "Schneider-ER8222搭電源",
+    "useType": "4",
+    "assetCode": "",
+    "mode": "1",
+    "needToInsp": "1",
+    "information": {
+      "length": 122.64638841152191,
+      "width": 79.99999523162842,
+      "height": 199.07749891281128,
+      "heightU": 42,
+      "watt": 15000,
+      "weight": 2000
+    },
+    "contains": [
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-8: BrocadeX7-4-sim-8U+89",
+        "rackLocation": 1,
+        "information": {
+          "length": 64.23127055168152,
+          "width": 47.61685132980347,
+          "height": 35.600000619888306
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+91",
+        "rackLocation": 9,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.616854310035706,
+          "height": 8.799999952316284
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+92",
+        "rackLocation": 11,
+        "information": {
+          "length": 64.23128247261047,
+          "width": 47.616854310035706,
+          "height": 8.799999952316284
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+93",
+        "rackLocation": 13,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.616854310035706,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-8: BrocadeX7-4-sim-8U+94",
+        "rackLocation": 14,
+        "information": {
+          "length": 64.23127055168152,
+          "width": 47.61685132980347,
+          "height": 35.600000619888306
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+95",
+        "rackLocation": 26,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.616854310035706,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-14: Brocade-7X-8-sim-14U+90",
+        "rackLocation": 27,
+        "information": {
+          "length": 69.64008212089539,
+          "width": 47.319480776786804,
+          "height": 61.229997873306274
+        }
+      }
+    ]
+  },
+  {
+    "elementId": "301022",
+    "deviceCode": "",
+    "code": "Rack4",
+    "buildingCode": "TPE",
+    "area": "IDC",
+    "floor": "FL1",
+    "system": "DCR",
+    "type": "Schneider-ER8222搭電源",
+    "desc": "4 系統Rack",
+    "deviceId": "HWACOM+TPE+IDC+FL1+1+DCR++Rack: Schneider-ER8222搭電源+6",
+    "manufacturer": "Schneider",
+    "modelnumber": "Schneider-ER8222搭電源",
+    "useType": "4",
+    "assetCode": "",
+    "mode": "1",
+    "needToInsp": "1",
+    "information": {
+      "length": 122.64638841152191,
+      "width": 80.00000230967999,
+      "height": 199.07749891281128,
+      "heightU": 42,
+      "watt": 15000,
+      "weight": 2000
+    },
+    "contains": [
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCN++Switch-5: Juniper-Core Switch EX9204-5U+142",
+        "rackLocation": 1,
+        "information": {
+          "length": 73.25606346130371,
+          "width": 44.19499784708023,
+          "height": 22.1000075340271
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCN++Switch-1: Juniper-Access Switch EX2300-24MP-1U+141",
+        "rackLocation": 6,
+        "information": {
+          "length": 27.138423919677734,
+          "width": 44.189997017383575,
+          "height": 4.4499993324279785
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+76",
+        "rackLocation": 9,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 8.799999952316284
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+77",
+        "rackLocation": 11,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 8.799999952316284
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+78",
+        "rackLocation": 13,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-8: BrocadeX7-4-sim-8U+80",
+        "rackLocation": 14,
+        "information": {
+          "length": 64.23127055168152,
+          "width": 47.61685132980347,
+          "height": 35.59999763965607
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+81",
+        "rackLocation": 22,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 8.799999952316284
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+82",
+        "rackLocation": 24,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 8.800001442432404
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+83",
+        "rackLocation": 26,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-8: BrocadeX7-4-sim-8U+84",
+        "rackLocation": 27,
+        "information": {
+          "length": 64.23127055168152,
+          "width": 47.61685132980347,
+          "height": 35.600000619888306
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+85",
+        "rackLocation": 35,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 8.799999952316284
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+86",
+        "rackLocation": 37,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 8.799999952316284
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+87",
+        "rackLocation": 39,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+88",
+        "rackLocation": 40,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+79",
+        "rackLocation": 41,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 8.800002932548523
+        }
+      }
+    ]
+  },
+  {
+    "elementId": "301014",
+    "deviceCode": "",
+    "code": "Rack5",
+    "buildingCode": "TPE",
+    "area": "IDC",
+    "floor": "FL1",
+    "system": "DCR",
+    "type": "Schneider-ER8222搭電源",
+    "desc": "5 系統Rack",
+    "deviceId": "HWACOM+TPE+IDC+FL1+1+DCR++Rack: Schneider-ER8222搭電源+9",
+    "manufacturer": "Schneider",
+    "modelnumber": "Schneider-ER8222搭電源",
+    "useType": "4",
+    "assetCode": "",
+    "mode": "1",
+    "needToInsp": "1",
+    "information": {
+      "length": 122.64639735221863,
+      "width": 79.99999523162842,
+      "height": 199.07749891281128,
+      "heightU": 42,
+      "watt": 15000,
+      "weight": 2000
+    },
+    "contains": [
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCN++Switch-6: Dell-PowerSwitch S系列-10GbE-6U+34",
+        "rackLocation": 1,
+        "information": {
+          "length": 46.050357818603516,
+          "width": 43.400001525878906,
+          "height": 26.40000581741333
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+36",
+        "rackLocation": 9,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.616854310035706,
+          "height": 8.799999952316284
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+37",
+        "rackLocation": 11,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.616854310035706,
+          "height": 8.799999952316284
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+38",
+        "rackLocation": 13,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.616854310035706,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-8: BrocadeX7-4-sim-8U+40",
+        "rackLocation": 14,
+        "information": {
+          "length": 64.23126459121704,
+          "width": 47.61685132980347,
+          "height": 35.600000619888306
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+41",
+        "rackLocation": 22,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.616854310035706,
+          "height": 8.799999952316284
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+42",
+        "rackLocation": 24,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.616854310035706,
+          "height": 8.799998462200165
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+43",
+        "rackLocation": 26,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.616854310035706,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-14: Brocade-7X-8-sim-14U+35",
+        "rackLocation": 27,
+        "information": {
+          "length": 69.64007616043091,
+          "width": 47.319480776786804,
+          "height": 61.229997873306274
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCN++Router-1: Brocade-CER 2024C-4X-Router-1U+39",
+        "rackLocation": 41,
+        "information": {
+          "length": 45.54415941238403,
+          "width": 48.08095693588257,
+          "height": 4.399999976158142
+        }
+      }
+    ]
+  },
+  {
+    "elementId": "301004",
+    "deviceCode": "",
+    "code": "Rack6",
+    "buildingCode": "TPE",
+    "area": "IDC",
+    "floor": "FL1",
+    "system": "DCR",
+    "type": "Schneider-ER8222搭電源",
+    "desc": "6 系統Rack",
+    "deviceId": "HWACOM+TPE+IDC+FL1+1+DCR++Rack: Schneider-ER8222搭電源+10",
+    "manufacturer": "Schneider",
+    "modelnumber": "Schneider-ER8222搭電源",
+    "useType": "4",
+    "assetCode": "",
+    "mode": "1",
+    "needToInsp": "1",
+    "information": {
+      "length": 122.64639735221863,
+      "width": 80.00000230967999,
+      "height": 199.07749891281128,
+      "heightU": 42,
+      "watt": 15000,
+      "weight": 2000
+    },
+    "contains": [
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCN++Switch-1: Juniper-Access Switch EX2300-24MP-1U+137",
+        "rackLocation": 1,
+        "information": {
+          "length": 27.13843584060669,
+          "width": 44.190001487731934,
+          "height": 4.4499993324279785
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCN++Switch-1: Juniper-Access Switch EX2300-24MP-1U+138",
+        "rackLocation": 2,
+        "information": {
+          "length": 27.13843584060669,
+          "width": 44.190001487731934,
+          "height": 4.4499993324279785
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCN++Switch-1: Juniper-Access Switch EX2300-24MP-1U+139",
+        "rackLocation": 3,
+        "information": {
+          "length": 27.13843584060669,
+          "width": 44.190001487731934,
+          "height": 4.4499993324279785
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCN++Switch-1: Juniper-Access Switch EX2300-24MP-1U+140",
+        "rackLocation": 4,
+        "information": {
+          "length": 27.13843584060669,
+          "width": 44.190001487731934,
+          "height": 4.4499993324279785
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+21",
+        "rackLocation": 9,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 8.799999952316284
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+22",
+        "rackLocation": 11,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 8.799999952316284
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+23",
+        "rackLocation": 13,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-8: BrocadeX7-4-sim-8U+25",
+        "rackLocation": 14,
+        "information": {
+          "length": 64.23126459121704,
+          "width": 47.61685132980347,
+          "height": 35.59999763965607
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+26",
+        "rackLocation": 22,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 8.799999952316284
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+27",
+        "rackLocation": 24,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 8.800001442432404
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+28",
+        "rackLocation": 26,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-8: BrocadeX7-4-sim-8U+29",
+        "rackLocation": 27,
+        "information": {
+          "length": 64.23126459121704,
+          "width": 47.61685132980347,
+          "height": 35.600000619888306
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+30",
+        "rackLocation": 35,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 8.799999952316284
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+31",
+        "rackLocation": 37,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 8.799999952316284
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+32",
+        "rackLocation": 39,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+33",
+        "rackLocation": 40,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-2: Brocade-7X-2+24",
+        "rackLocation": 41,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 8.800002932548523
+        }
+      }
+    ]
+  },
+  {
+    "elementId": "300996",
+    "deviceCode": "",
+    "code": "Rack7",
+    "buildingCode": "TPE",
+    "area": "IDC",
+    "floor": "FL1",
+    "system": "DCR",
+    "type": "Schneider-ER8222搭電源",
+    "desc": "7 系統Rack",
+    "deviceId": "HWACOM+TPE+IDC+FL1+1+DCR++Rack: Schneider-ER8222搭電源+11",
+    "manufacturer": "Schneider",
+    "modelnumber": "Schneider-ER8222搭電源",
+    "useType": "4",
+    "assetCode": "",
+    "mode": "1",
+    "needToInsp": "1",
+    "information": {
+      "length": 122.64639735221863,
+      "width": 80.00000715255737,
+      "height": 199.07749891281128,
+      "heightU": 42,
+      "watt": 15000,
+      "weight": 2000
+    },
+    "contains": [
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+44",
+        "rackLocation": 5,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708051681518555
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+45",
+        "rackLocation": 6,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708051681518555
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+46",
+        "rackLocation": 7,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708051681518555
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+47",
+        "rackLocation": 8,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708051681518555
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+48",
+        "rackLocation": 9,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+49",
+        "rackLocation": 10,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+50",
+        "rackLocation": 11,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+51",
+        "rackLocation": 12,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+52",
+        "rackLocation": 13,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+53",
+        "rackLocation": 20,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+54",
+        "rackLocation": 21,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708042740821838
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+55",
+        "rackLocation": 22,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+56",
+        "rackLocation": 23,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+57",
+        "rackLocation": 24,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+58",
+        "rackLocation": 25,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.7080472111701965
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+59",
+        "rackLocation": 26,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+60",
+        "rackLocation": 27,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708044230937958
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+61",
+        "rackLocation": 28,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+62",
+        "rackLocation": 29,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045348525047
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+63",
+        "rackLocation": 30,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045348525047
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+64",
+        "rackLocation": 31,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045162260532
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCN++Router-1: Brocade-CER 2024C-4X-Router-1U+144",
+        "rackLocation": 34,
+        "information": {
+          "length": 45.54417133331299,
+          "width": 48.08095693588257,
+          "height": 4.399999976158142
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCN++Router-1: Brocade-CER 2024C-4X-Router-1U+145",
+        "rackLocation": 35,
+        "information": {
+          "length": 45.54417133331299,
+          "width": 48.08095693588257,
+          "height": 4.399999976158142
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCN++Router-1: Brocade-CER 2024C-4X-Router-1U+143",
+        "rackLocation": 36,
+        "information": {
+          "length": 45.54417133331299,
+          "width": 48.08095693588257,
+          "height": 4.399999976158142
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCN++Router-1: Brocade-CER 2024C-4X-Router-1U+65",
+        "rackLocation": 37,
+        "information": {
+          "length": 45.54417133331299,
+          "width": 48.08095693588257,
+          "height": 4.399998486042023
+        }
+      }
+    ]
+  },
+  {
+    "elementId": "300988",
+    "deviceCode": "",
+    "code": "Rack7",
+    "buildingCode": "TPE",
+    "area": "IDC",
+    "floor": "FL1",
+    "system": "DCR",
+    "type": "Schneider-ER8222搭電源",
+    "desc": "7 系統Rack",
+    "deviceId": "HWACOM+TPE+IDC+FL1+1+DCR++Rack: Schneider-ER8222搭電源+11",
+    "manufacturer": "Schneider",
+    "modelnumber": "Schneider-ER8222搭電源",
+    "useType": "4",
+    "assetCode": "",
+    "mode": "1",
+    "needToInsp": "1",
+    "information": {
+      "length": 122.64639735221863,
+      "width": 80.00000715255737,
+      "height": 199.07749891281128,
+      "heightU": 42,
+      "watt": 15000,
+      "weight": 2000
+    },
+    "contains": [
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+44",
+        "rackLocation": 5,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708051681518555
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+45",
+        "rackLocation": 6,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708051681518555
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+46",
+        "rackLocation": 7,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708051681518555
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+47",
+        "rackLocation": 8,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708051681518555
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+48",
+        "rackLocation": 9,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+49",
+        "rackLocation": 10,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+50",
+        "rackLocation": 11,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+51",
+        "rackLocation": 12,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+52",
+        "rackLocation": 13,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+53",
+        "rackLocation": 20,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+54",
+        "rackLocation": 21,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708042740821838
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+55",
+        "rackLocation": 22,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+56",
+        "rackLocation": 23,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+57",
+        "rackLocation": 24,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+58",
+        "rackLocation": 25,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.7080472111701965
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+59",
+        "rackLocation": 26,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+60",
+        "rackLocation": 27,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708044230937958
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+61",
+        "rackLocation": 28,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045721054077
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+62",
+        "rackLocation": 29,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045348525047
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+63",
+        "rackLocation": 30,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045348525047
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCS++Server-1: Brocade-7X-1+64",
+        "rackLocation": 31,
+        "information": {
+          "length": 64.231276512146,
+          "width": 47.61685132980347,
+          "height": 4.708045162260532
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCN++Router-1: Brocade-CER 2024C-4X-Router-1U+144",
+        "rackLocation": 34,
+        "information": {
+          "length": 45.54417133331299,
+          "width": 48.08095693588257,
+          "height": 4.399999976158142
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCN++Router-1: Brocade-CER 2024C-4X-Router-1U+145",
+        "rackLocation": 35,
+        "information": {
+          "length": 45.54417133331299,
+          "width": 48.08095693588257,
+          "height": 4.399999976158142
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCN++Router-1: Brocade-CER 2024C-4X-Router-1U+143",
+        "rackLocation": 36,
+        "information": {
+          "length": 45.54417133331299,
+          "width": 48.08095693588257,
+          "height": 4.399999976158142
+        }
+      },
+      {
+        "deviceCode": "",
+        "deviceId": "HWACOM+TPE+IDC+FL1+1+DCN++Router-1: Brocade-CER 2024C-4X-Router-1U+65",
+        "rackLocation": 37,
+        "information": {
+          "length": 45.54417133331299,
+          "width": 48.08095693588257,
+          "height": 4.399998486042023
+        }
+      }
+    ]
+  }
+]

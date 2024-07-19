@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: "SO_CCTV - \u6A5F\u623F\u5165\u53E3"
   m_EditorClassIdentifier: 
   txtNo: 115925
-  txtName: "\u6A5F\u623F\u5165\u53E3"
-  url: 1/2
+  txtName: "\u6A5F\u623F\u5165\u53E3 [331462]"
+  url: 1/1
   cctvServerInfo: {fileID: 11400000, guid: 1b4a2a2e1915eaf45b6acc18cc2d0484, type: 2}
   sourceToggle: {fileID: 0}

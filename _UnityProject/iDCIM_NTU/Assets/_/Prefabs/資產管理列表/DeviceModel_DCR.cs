@@ -18,6 +18,10 @@ public class DeviceModel_DCR : DeviceModel<SO_DCR>
         soData.DCS_List.ForEach(soDCS =>
         {
             Transform device = RevitHandler.CreateDeviceDCSfromDict(soDCS, dcsTextureDictionary, prefab, this.transform);
+            Vector3 scale = device.localScale;
+            scale.x += 0.15f;
+            device.localScale = scale;
+
             DeviceModel_DCSDCN modelDCSDCN = device.AddComponent<DeviceModel_DCSDCN>();
             modelDCSDCN.soData = soDCS;
 

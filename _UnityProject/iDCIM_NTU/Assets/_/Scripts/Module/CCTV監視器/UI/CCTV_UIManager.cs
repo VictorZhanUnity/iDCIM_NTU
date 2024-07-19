@@ -39,7 +39,7 @@ public class CCTV_UIManager : MonoBehaviour
         cctvList.onToggleChanged.AddListener(onToggleChangedHandler);
 
         cctvPlayer_Entrance.onClickScaleButton.AddListener(PlayFullScreenCCTV);
-        cctvPlayer.onClickScaleButton.AddListener(PlayFullScreenCCTV);
+       // cctvPlayer.onClickScaleButton.AddListener(PlayFullScreenCCTV);
 
         btnCloseOfFullScreen.onClick.AddListener(() =>
         {

@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
 using VictorDev.Parser;
@@ -12,7 +13,7 @@ public class DeviceManager : MonoBehaviour
     private Dictionary<string, Texture> dcsTextureDictionary { get; set; } = new Dictionary<string, Texture>();
 
     [Header(">>> 場景上模型 - DCR")]
-    [SerializeField] private List<DeviceModel_DCR> modelDCRList;
+    [SerializeField] private List<Collider> modelDCRList;
 
     [Header(">>> 從WebAPI取得的DCR列表")]
     [SerializeField] private List<SO_DCR> soDCRList;
@@ -42,17 +43,17 @@ public class DeviceManager : MonoBehaviour
 
     private void Awake()
     {
-        //設定DCS 材質 Dictionary
-        dcsTextureList.ForEach(texture => dcsTextureDictionary[texture.name] = texture);
+       /* //設定DCS 材質 Dictionary
+        dcsTextureList.ForEach(texture => dcsTextureDictionary[texture.name] = texture);*/
 
-        //設定DCS點擊後，傳遞soData給資訊面板 
-        modelDCRList.ForEach(deviceModelDCR =>
+       /* //設定DCS點擊後，傳遞soData給資訊面板 
+        modelDCRList.ForEach(collider =>
         {
+            DeviceModel_DCR dcr = collider.AddComponent<DeviceModel_DCR>();
             //以字典儲存各個DCR模型
-            modelDcrDict[deviceModelDCR.elementId] = deviceModelDCR;
-
-            deviceModelDCR.onToggleChanged.AddListener(OnModelClicked);
-        });
+            modelDcrDict[dcr.elementId] = dcr;
+            dcr.onToggleChanged.AddListener(OnModelClicked);
+        });*/
 
         // 當RU列表項目被點擊時
         //panel_DCR_RUInfo.onToggledEvent.AddListener(OnModelClicked);
@@ -112,6 +113,18 @@ public class DeviceManager : MonoBehaviour
             SO_DCR soDCR = ScriptableObject.CreateInstance<SO_DCR>();
             soDCR.SetSourceDataDict(dataSet);
             soDCRList.Add(soDCR);
+        });
+
+        //設定DCS 材質 Dictionary
+        dcsTextureList.ForEach(texture => dcsTextureDictionary[texture.name] = texture);
+
+        //設定DCS點擊後，傳遞soData給資訊面板 
+        modelDCRList.ForEach(collider =>
+        {
+            DeviceModel_DCR dcr = collider.AddComponent<DeviceModel_DCR>();
+            //以字典儲存各個DCR模型
+            modelDcrDict[dcr.elementId] = dcr;
+            dcr.onToggleChanged.AddListener(OnModelClicked);
         });
 
         //資料儲存給每個一DCR模型
