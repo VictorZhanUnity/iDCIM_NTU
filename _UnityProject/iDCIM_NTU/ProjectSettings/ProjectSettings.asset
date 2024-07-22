@@ -161,7 +161,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.TCIT.iDCIM_PRIMAX
+    Android: com.TCIT.iDCIM_NTU
     Standalone: com.TCIT.-template
   buildNumber:
     Standalone: 0

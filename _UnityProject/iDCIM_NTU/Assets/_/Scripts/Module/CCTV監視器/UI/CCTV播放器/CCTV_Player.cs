@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.Events;
-//using VictorDev.Net.RTSP.UMPPlugin;
+using VictorDev.Net.RTSP.UMPPlugin;
 
 public class CCTV_Player : MonoBehaviour
 {
@@ -19,7 +19,7 @@ public class CCTV_Player : MonoBehaviour
     public UnityEvent<SO_CCTV> onClickScaleButton;
 
     [Header(">>> UI組件")]
-    //[SerializeField] private RtspScreen rtspScreen;
+   [SerializeField] private RTSPPlayer rtspPlayer;
     [SerializeField] private PanelController panelController;
 
     public bool isPlayWithInit { set => _isPlayWithInit = value; }
@@ -58,7 +58,7 @@ public class CCTV_Player : MonoBehaviour
     public void Play(string url)
     {
         gameObject.SetActive(true);
-        //rtspScreen.Play(url);
+        rtspPlayer.Play(url);
     }
     public void Play(SO_CCTV soData)
     {
@@ -66,14 +66,14 @@ public class CCTV_Player : MonoBehaviour
         Play();
     }
 
-   /* public void Pause() => rtspScreen.Pause();
+     public void Pause() => rtspPlayer.Pause();
 
-    public void Stop() => rtspScreen.Stop();*/
+    public void Stop() => rtspPlayer.Stop();
 
     public void StopAndClose()
     {
         _soData.sourceToggle.isOn = false;
-       // Stop();
+        Stop();
         ObjectPoolManager.PushToPool<CCTV_Player>(this);
     }
 

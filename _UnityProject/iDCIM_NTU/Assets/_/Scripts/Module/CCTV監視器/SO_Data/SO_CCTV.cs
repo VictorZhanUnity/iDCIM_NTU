@@ -13,10 +13,10 @@ public class SO_CCTV : ScriptableObject
     [Header(">>> CCTV監視器 - 名稱")]
     [SerializeField] private string txtName = "監視器 - A";
 
-    [Header(">>> CCTV鏈結網址")]
+    [Header(">>> CCTV鏈結網址(可填寫完整路徑)")]
     [SerializeField] private string url = "live/video/record/ch1";
 
-    [Header(">>> CCTV伺服器資訊")]
+    [Header(">>> CCTV伺服器資訊(留空的話，則使用完整路徑)")]
     [SerializeField] private SO_CCTV_ServerInfo cctvServerInfo;
 
     [Header(">>> 來源Toggle物件")]
@@ -33,6 +33,7 @@ public class SO_CCTV : ScriptableObject
 
     /// <summary>
     /// CCTV完整鏈結網址
+    /// <para> + 若cctvServerInfo為null，則使用完整URL網址</para>
     /// </summary>
-    public string URL => $"{cctvServerInfo.URL}/{url}";
+    public string URL => (cctvServerInfo != null) ? $"{cctvServerInfo.URL}/{url}" : url;
 }

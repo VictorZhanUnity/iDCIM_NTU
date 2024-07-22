@@ -35,6 +35,7 @@ public class CCTV_MonitorPage : MonoBehaviour
             player.soData = soData;
             player.onClickScaleButton.AddListener((soData) => mainPlayer.Play(soData));
             playerList.Add(player);
+            //itemPrefab.Play();
         }
         list.ForEach(soData =>
         {
